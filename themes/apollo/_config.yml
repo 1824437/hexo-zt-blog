@@ -5,8 +5,8 @@ menu:
     浏览器: /categories/browser/
     编辑器: /categories/editor/ #
     标准: /categories/standard/ #各种标准
-    流行: /categories/pop/ #各种流行的东西，如 eslint,babel, ...
-
+    流行: /categories/popular/ #各种流行的东西，如 eslint,babel, ...
+    OS: /categories/os/ #系统相关
 widgets:
 #- category
 - tag

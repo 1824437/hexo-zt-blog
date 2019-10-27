@@ -310,7 +310,7 @@ header .nav-btn {
     display: none;
 }
 
-header .logo-link img { padding-top: 4px; }
+header .logo-link img { padding-top: 13px; height:32px;}
 
 header .nav-list-item {
     display: inline-block;
