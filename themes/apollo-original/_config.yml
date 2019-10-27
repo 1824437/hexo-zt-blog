@@ -1,0 +1,23 @@
+menu:
+    Home: /
+    Web: /categories/web/ #JS TS CSS SASS HTML
+    Frame: /categories/frame/ #Vue,React,<any>UI, ReactNative, Weex, ...
+    Browser: /categories/browser/
+    Editor: /categories/editor/ #
+    Standard: /categories/standard/ #各种标准
+    Popular: /categories/pop/ #各种流行的东西，如 eslint,babel, ...
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo:
+
+# Analytics
+# google-analytics:
+# ga: UA-xxxxxxxx-x
+
+# Copyright Infomation
+startyear: 2015
