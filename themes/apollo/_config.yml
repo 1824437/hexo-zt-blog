@@ -1,14 +1,16 @@
 menu:
-    博文: /
-    归档: /archives/
-    # 生活: /categories/live/
-    # 摄影: /categories/film/
-    # 关于: /about/
+    首页: /
+    WEB: /categories/web/ #JS TS CSS SASS HTML
+    框架: /categories/frame/ #Vue,React,<any>UI, ReactNative, Weex, ...
+    浏览器: /categories/browser/
+    编辑器: /categories/editor/ #
+    标准: /categories/standard/ #各种标准
+    流行: /categories/pop/ #各种流行的东西，如 eslint,babel, ...
 
 widgets:
-- category
+#- category
 - tag
-- tagcloud
+#- tagcloud
 - archive
 
 # count
@@ -21,7 +23,7 @@ logo: /images/logo.png
 leancloud:
     appid: aD8jJBpu4oew3ovNY73z6Rdq-gzGzoHsz # 填写您的appid
     appkey: FdzS5SOPHdhYQoEUngQ8K2QW # 填写您的appkey
-    comment: true # 是否开启评论系统
+    comment: false # 是否开启评论系统
     timer: true # 是否开启文章统计
 
 
