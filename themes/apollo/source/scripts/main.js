@@ -61,8 +61,8 @@
     if (searchXml.length == 0) {
      	searchXml = "search.xml";
     }
-    var searchPath = "/" + searchXml;
-    initSearch(searchPath, 'search_input', 'search_result');
+    // var searchPath = "/" + searchXml;
+    // initSearch(searchPath, 'search_input', 'search_result');
 
     // 初始化搜索与匹配函数
     function initSearch(path, search_id, content_id) {
