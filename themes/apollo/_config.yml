@@ -6,6 +6,8 @@ menu:
     编辑器: /categories/editor/ #
     标准: /categories/standard/ #各种标准
     流行: /categories/popular/ #各种流行的东西，如 eslint,babel, ...
+    编译: /categories/compiler/ ## 编译及插件
+    测试: /categories/test/ ## 各种测试及语法检查器
     OS: /categories/os/ #系统相关
 widgets:
 #- category
