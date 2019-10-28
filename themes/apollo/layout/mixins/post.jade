@@ -32,9 +32,8 @@ mixin posts()
                     h2.post-title
                         a.post-title-link(href= url_for(item.path))
                             != item.title
-                    
+                    +postInfo(item)
                     .post-content
-                        +postInfo(item)
                         != item.excerpt
                     a.read-more(href= url_for(item.path))!= __('more')
         - })
