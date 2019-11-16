@@ -186,7 +186,7 @@ linux之间复制文件
 
 + -r 递归复制整个目录
 
-	`scp -r l-rtools1.ops.cn5:~/a ~/.ssh` 将cn5主机下~/a文件夹递归复现到本机的~/.ssh文件夹下
+	`scp -r 192.168.0.23:~/a ~/.ssh` 将192.168.0.23主机下~/a文件夹递归复现到本机的~/.ssh文件夹下
 
 <x id="traceroute">
 ### traceroute

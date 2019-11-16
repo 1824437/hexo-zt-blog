@@ -56,7 +56,7 @@ tags: [linux, rsync]
 
 * `-e`指定所要使用的远程shell程序，默认为ssh
 
-	`rsync -ir -e "ssh -p 1080" from/static t.z@138.128.197.152:~/static`  
+	`rsync -ir -e "ssh -p 1080" from/static t.z@*.*.*.*:~/static`  
 	注意: 我的web root 是`/home/www/static`，但t.z没有w权限，所以先暂存到有权限的`~`下，然后在通过`sudo rsync -ri ~/static/ /home/www/static`
 
 **options**

@@ -75,7 +75,7 @@ tags: [sass,css]
 		2. 文件名以协义开头
 		3. 使用url()包裹文件
 		4. 带有媒体查询的    
-		`@import url("//qunarzz.com/css/reset.css") screen`
+		`@import url("//qun.com/css/reset.css") screen`
 		
 		5. 以上情况除外即使不在扩展名也会查找sass文件，找到即导入。 
 		6. 当scss文件不想被处理时，在文件改名，前加下划线即可。
